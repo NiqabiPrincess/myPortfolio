@@ -6,6 +6,12 @@ body {
     line-height: 1.6;
     background-color: rgb(231, 154, 179);
     background-image: linear-gradient(to bottom, rgb(252, 184, 205), rgb(216, 82, 138));
+    .error{
+        color: rgb(224, 45, 60);
+    }
+    .success{
+        color: #12862d;
+    }
     
 }
 
@@ -33,12 +39,16 @@ h1, h2{
     text-decoration-color: rgb(21, 21, 21);
     text-decoration-style: wavy;
 }
+h2{
+    font-size: 30px;
+}
 
 p{
     padding-left: 30px;
     padding-right: 30px;
     font-family: ink free;
     font-weight: bold;
+    
 
 }
 
@@ -74,6 +84,76 @@ section {
     border-image: url(flowers.jpeg) 35 repeat;
 
 }
+
+table{
+    text-align: center;
+    align-items: center;
+    border: 3px solid;
+    width: 100%;
+}
+th{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration: underline;
+    border: 3px solid;
+    width: 25%;
+
+}
+td{
+    text-align: center;
+    border: 3px solid;
+    padding: 10px;
+}
+
+button {
+    background-color: #12b97b; 
+    color: rgb(4, 20, 10);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: #302d31;
+    cursor: pointer;
+}
+
+img[id="zoom"]{
+    border: none;
+}
+img[id="zoom"]:hover{
+    transform: scale(5.5);
+
+}
+
+a{
+    color: #110f80;
+}
+a:hover{
+    color: #222222;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    
+}
+input[type="text"], input[type="email"], textarea, fieldset{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid rgb(212, 54, 109);
+    box-sizing: border-box;
+    
+}
+
+
 
 footer {
     background-color: #333;
