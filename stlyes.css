@@ -131,6 +131,21 @@ a:hover{
     font-weight: bolder;
 }
 
+form {
+    width: 500px;
+    margin: auto;
+    
+}
+input[type="text"], input[type="email"], textarea, fieldset{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 3px solid rgb(212, 54, 109);
+    box-sizing: border-box;
+    
+}
+
+
 footer {
     background-color: #333;
     color: white;
