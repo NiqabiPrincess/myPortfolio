@@ -76,7 +76,8 @@ form.addEventListener('submit', function(event) {
     } 
 
     if (isValid) {
-        successMessage.textContent = 'Form submitted successfully! ';
+        console.log("isValid:", isValid);
+        successMessage.textContent = 'Message submitted successfully! Will try to reach you in 7-14 business days. ';
     }
 });
 
