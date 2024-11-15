@@ -6,6 +6,12 @@ body {
     line-height: 1.6;
     background-color: rgb(231, 154, 179);
     background-image: linear-gradient(to bottom, rgb(252, 184, 205), rgb(216, 82, 138));
+    .error{
+        color: rgb(224, 45, 60);
+    }
+    .success{
+        color: #12862d;
+    }
     
 }
 
@@ -112,13 +118,14 @@ button {
 
 button:hover {
     background-color: blanchedalmond;
-    color: #302d31
+    color: #302d31;
+    cursor: pointer;
 }
 
-img{
+img[id="zoom"]{
     border: none;
 }
-img:hover{
+img[id="zoom"]:hover{
     transform: scale(5.5);
 
 }
@@ -129,6 +136,7 @@ a{
 a:hover{
     color: #222222;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 form {
@@ -144,6 +152,7 @@ input[type="text"], input[type="email"], textarea, fieldset{
     box-sizing: border-box;
     
 }
+
 
 
 footer {

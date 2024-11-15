@@ -51,9 +51,9 @@
             <tr>
                 <td>
                     <button type="button" class="showBtn" id="showBtn1" >Show Details 1</button>
-                    <div class="details">
+                    <div class="details" style="display: none;" id="details1">
                         <p>In this project I learnt how to put together a simple webpage using various tags to include elements like; headings, paragraphs, links, images, lists, and tables. This was my first Web Development Class Assignment. </p>
-                        <img src="project1.1.png" alt="screenshot of project 1"> <br> <img src="project1.2.png" alt="screenshot of project 1"><br>
+                        <img id= "zoom" src="project1.1.png" alt="screenshot of project 1"> <br> <img id= "zoom" src="project1.2.png" alt="screenshot of project 1"><br>
                         <a href="https://niqabiprincess.github.io/my_first_webpage/">Take a Look at this Project!</a> <br>
                         <a href="https://github.com/NiqabiPrincess/my_first_webpage">Check out my Repository for this Project</a>
                     </div>
@@ -61,9 +61,9 @@
 
                 <td>
                     <button type="button" class="showBtn" id="showBtn2" >Show Details 2</button>
-                    <div class="details">
+                    <div class="details" style="display: none;" id="details2">
                         <p>In this project I learnt about using forms with accessibility principles in HTML. I made an user registration for a pretend chocolate subscription </p>
-                        <img src="project2.png" alt="screenshot of project 1"> <br>
+                        <img id= "zoom" src="project2.png" alt="screenshot of project 1"> <br>
                         <a href="https://niqabiprincess.github.io/Exercise2RegistrationForm/">Take a Look at this Project!</a> <br>
                         <a href="https://github.com/NiqabiPrincess/Exercise2RegistrationForm/blob/main/index.html">Check out my Repository for this Project</a>
                     </div>
@@ -72,9 +72,9 @@
                 <td>
                     
                     <button type="button" class="showBtn" id="showBtn3" >Show Details 3</button>
-                    <div class="details">
+                    <div class="details" style="display: none;" id="details3">
                         <p>In this project I learnt about how to use CSS to style a simple webpage with a form. I experimented with different ways to style text, the box model and, other features like background colours</p>
-                        <img src="project3.png" alt="screenshot of project2"> <br>
+                        <img id= "zoom" src="project3.png" alt="screenshot of project2"> <br>
                         <a href="https://niqabiprincess.github.io/Exercise-3-CSS-Fundamentals---Styling-and-Layout/">Take a Look at this Project!</a> <br>
                         <a href="https://github.com/NiqabiPrincess/Exercise-3-CSS-Fundamentals---Styling-and-Layout">Check out my Repository for this Project</a>
 
@@ -85,9 +85,9 @@
 
                 <td>
                     <button type="button" class="showBtn" id="showBtn4" >Show Details 4</button>
-                    <div class="details">
+                    <div class="details" style="display: none;" id="details4">
                         <p>In this project I learnt about using web storage API to save a user's input and return a personalized greeting. I used JavaScript to complete this, and learnt how to link my HTML code with my JavaScript code.</p>
-                        <img src="project4.1.png" alt="screenshot of project 4"> <br> <img src="project4.2.png" alt="screenshot of project 4"><br>
+                        <img id= "zoom" src="project4.1.png" alt="screenshot of project 4"> <br> <img id= "zoom" src="project4.2.png" alt="screenshot of project 4"><br>
                         <a href="https://niqabiprincess.github.io/Assignment-2-Build-a-Web-Page-Using-the-HTML5-Web-Storage-API/">Take a Look at this Project!</a> <br>
                         <a href="https://github.com/NiqabiPrincess/Assignment-2-Build-a-Web-Page-Using-the-HTML5-Web-Storage-API">Check out my Repository for this Project</a>
 
@@ -108,12 +108,12 @@
         
         <form id="contactForm">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" >
             <span class="error" id="nameError"></span> 
             <br><br>
         
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email"> 
             <span class="error" id="emailError"></span>
             <br><br>
 
@@ -131,7 +131,7 @@
             <br><br>
 
             
-            <button type="submit">Register</button>
+            <button type="submit">Send</button>
         </form>
         
         <p id="successMessage" class="success"></p> 
