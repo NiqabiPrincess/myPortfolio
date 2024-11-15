@@ -33,12 +33,16 @@ h1, h2{
     text-decoration-color: rgb(21, 21, 21);
     text-decoration-style: wavy;
 }
+h2{
+    font-size: 30px;
+}
 
 p{
     padding-left: 30px;
     padding-right: 30px;
     font-family: ink free;
     font-weight: bold;
+    
 
 }
 
@@ -73,6 +77,26 @@ section {
     padding: 15px;
     border-image: url(flowers.jpeg) 35 repeat;
 
+}
+
+table{
+    text-align: center;
+    align-items: center;
+    border: 3px solid;
+    width: 100%;
+}
+th{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    text-decoration: underline;
+    border: 3px solid;
+    width: 25%;
+
+}
+td{
+    text-align: center;
+    border: 3px solid;
 }
 
 footer {
