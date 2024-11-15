@@ -115,6 +115,22 @@ button:hover {
     color: #302d31
 }
 
+img{
+    border: none;
+}
+img:hover{
+    transform: scale(5.5);
+
+}
+
+a{
+    color: #110f80;
+}
+a:hover{
+    color: #222222;
+    font-weight: bolder;
+}
+
 footer {
     background-color: #333;
     color: white;
