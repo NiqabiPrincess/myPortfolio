@@ -29,10 +29,9 @@ img {
 header {
     background-color: #333;
     color: white;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
-    width: 100%;
-    position: fixed;    
+    width: 100%;    
     
 }
 
