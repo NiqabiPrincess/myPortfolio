@@ -78,6 +78,8 @@ form.addEventListener('submit', function(event) {
     if (isValid) {
         console.log("isValid:", isValid);
         successMessage.textContent = 'Message submitted successfully! Will try to reach you in 7-14 business days. ';
+        alert('You have Message has been Sent!');
+        document.getElementById("contactForm").reset();
     }
 });
 
@@ -86,3 +88,35 @@ function validateEmail(email) {
     
 return re.test(String(email).toLowerCase());
 }
+
+//scroll up button
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+} else {
+    mybutton.style.display = "none";
+}
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle('dark-mode');
+
+    var button = document.getElementById("dark-light-mode");
+    if (element.classList.contains('dark-mode')) {
+        button.textContent = "Switch to Light Mode";  
+    } else {
+        button.textContent = "Switch to Dark Mode";   
+    }
+}
+
