@@ -109,5 +109,12 @@ function topFunction() {
 function darkMode() {
     var element = document.body;
     element.classList.toggle('dark-mode');
+
+    var button = document.getElementById("dark-light-mode");
+    if (element.classList.contains('dark-mode')) {
+        button.textContent = "Switch to Light Mode";  
+    } else {
+        button.textContent = "Switch to Dark Mode";   
+    }
 }
 
